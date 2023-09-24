@@ -44,7 +44,7 @@ namespace ShopOnline.API.Controllers
         }
 
         [HttpGet("{id:int}")]
-        [Rout]
+        
         public async Task<ActionResult<ProductDto>> GetItem(int id)
         {
             try
